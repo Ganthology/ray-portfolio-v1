@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12vw;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Dongle', sans-serif;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  --border-color: #ddbea9;
+  --border-width: 5px;
+  --bottom-distance: 0px;
+
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: 'Dongle', sans-serif;
+  /* background-color: transparent; */
+  border: 0;
+
+  background-color: transparent;
+
+  background-image: linear-gradient(var(--border-color), var(--border-color));
+  background-size: 0% var(--border-width);
+  background-repeat: no-repeat;
+  transition: background-size 0.3s;
+
+}
+
+.button:hover {
+  background-size: 100% var(--border-width);
+}
+
+.fromLeft {
+  background-position: 0 calc(100% - var(--bottom-distance))
+}
+
+.resumeButton {
+  background-color: #cb997e;
+  color: white;
+  padding: 0px 12px;
+  font-size: 30px;
+  font-family: 'Dongle', sans-serif;
+  border-radius: 15px;
+  border: 0;
+}
+
+.resumeButton:hover {
+  background-color: #ddbea9;
+  color: white;
+  transition-timing-function: ease;
+  transition: background-color 0.3s;
+}
