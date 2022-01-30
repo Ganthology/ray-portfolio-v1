@@ -1,0 +1,10 @@
+.iconsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  padding-right: 10px;
+}
