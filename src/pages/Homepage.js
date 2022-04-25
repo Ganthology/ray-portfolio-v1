@@ -5,13 +5,16 @@ import { ExperienceCard } from '../components/ExperienceCard'
 import { SkillsSection } from '../components/SkillsSection'
 import { ProjectCard } from '../components/ProjectCard'
 import portraitPhoto from '../assets/business-3d-man-sitting-with-smartphone-1.png'
+import coingeckoClone from '../assets/coingecko-clone.png'
+import tngClone from '../assets/tng-clone.png'
+import gallery from '../assets/gallery.png'
+import timetableConverter from '../assets/timetable-converter.png'
+import todolah from '../assets/todolah.png'
 
 const Homepage = () => {
   return (
-    <div className='mx-auto bg-stone-100'>
-      {/* <Navbar/>
-      <HeroImage/> */}
-      <nav className='bg-stone-200'>
+    <div className='mx-auto bg-stone-100 scroll-smooth'>
+      <nav className='bg-stone-200 sticky top-0 z-10'>
         <div className='container flex justify-between px-4 py-4 mx-auto'>
           <a
             href='https://www.linkedin.com/in/ray-gan-bk/'
@@ -285,12 +288,52 @@ const Homepage = () => {
       </section>
       <section id='projects' className='container px-4 mx-auto'>
         <h1 className='text-3xl font-bold mt-8 mb-4'>Projects</h1>
-        <ProjectCard
-          projectImage=''
-          projectTitle='CoinGecko Mobile App Clone'
-        />
+        <div className='grid grid-rows-5 sm:grid-rows-none sm:grid-cols-3 gap-8 pb-8'>
+          <ProjectCard
+            projectImage={coingeckoClone}
+            projectTitle='CoinGecko Mobile Clone'
+            projectLink='https://github.com/Ganthology/CoinGeckoClone'
+            projectSkills={['React Native', 'Axios', 'React Native Navigation']}
+          />
+          <ProjectCard
+            projectImage={tngClone}
+            projectTitle='TnG eWallet UI Clone'
+            projectLink='https://github.com/Ganthology/tng-clone'
+            projectSkills={[
+              'React Native',
+              'UI Design',
+              'React Native Navigation',
+            ]}
+          />
+          <ProjectCard
+            projectImage={gallery}
+            projectTitle='Unsplash Gallery App'
+            projectLink='https://github.com/Ganthology/PhotoGalleryExercise'
+            projectSkills={['React Native', 'Axios', 'React Native Navigation']}
+          />
+          <ProjectCard
+            projectImage={todolah}
+            projectTitle='Todolah'
+            projectLink='https://github.com/Ganthology/TodoReactNative'
+            projectSkills={[
+              'React Native',
+              'MongoDB Realm',
+              'React Native Navigation',
+            ]}
+          />
+          <ProjectCard
+            projectImage={timetableConverter}
+            projectTitle='Timetable Converter'
+            projectLink='https://github.com/Ganthology/timetable-to-calendar'
+            projectSkills={['Python', 'Streamlit', 'tabula-py', 'pandas']}
+          />
+        </div>
       </section>
-      <h1 className='font-medium text-3xl'>This is the Homepage</h1>
+      <footer className='bg-stone-600'>
+        <div className='container flex justify-between px-4 py-4 mx-auto '>
+          <h1 className='text-zinc-50'>Contact Me</h1>
+        </div>
+      </footer>
     </div>
   )
 }
