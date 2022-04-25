@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/ray-portfolio-v1/static/css/main.c0a36900.css",
-    "main.js": "/ray-portfolio-v1/static/js/main.75213450.js",
+    "main.css": "/ray-portfolio-v1/static/css/main.e4b68654.css",
+    "main.js": "/ray-portfolio-v1/static/js/main.52c54f13.js",
+    "static/media/gallery.png": "/ray-portfolio-v1/static/media/gallery.98a5a31c9aa7b5f20f63.png",
+    "static/media/tng-clone.png": "/ray-portfolio-v1/static/media/tng-clone.9f54ae7bbeb12d1795fa.png",
+    "static/media/coingecko-clone.png": "/ray-portfolio-v1/static/media/coingecko-clone.edb9d9deda518fac8ff0.png",
+    "static/media/timetable-converter.png": "/ray-portfolio-v1/static/media/timetable-converter.b13b5fd8e1faae3b96b3.png",
     "static/media/business-3d-man-sitting-with-smartphone-1.png": "/ray-portfolio-v1/static/media/business-3d-man-sitting-with-smartphone-1.3e5d7f77e6e5fba634d2.png",
+    "static/media/todolah.png": "/ray-portfolio-v1/static/media/todolah.34edebacfc88e354df01.png",
     "static/media/portrait_march_2020.jpg": "/ray-portfolio-v1/static/media/portrait_march_2020.2d8407f7ab9b6ec1327c.jpg",
     "index.html": "/ray-portfolio-v1/index.html",
-    "main.c0a36900.css.map": "/ray-portfolio-v1/static/css/main.c0a36900.css.map",
-    "main.75213450.js.map": "/ray-portfolio-v1/static/js/main.75213450.js.map"
+    "main.e4b68654.css.map": "/ray-portfolio-v1/static/css/main.e4b68654.css.map",
+    "main.52c54f13.js.map": "/ray-portfolio-v1/static/js/main.52c54f13.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0a36900.css",
-    "static/js/main.75213450.js"
+    "static/css/main.e4b68654.css",
+    "static/js/main.52c54f13.js"
   ]
 }
