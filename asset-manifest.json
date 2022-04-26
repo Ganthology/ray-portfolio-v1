@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ray-portfolio-v1/static/css/main.e4b68654.css",
-    "main.js": "/ray-portfolio-v1/static/js/main.af5a5f87.js",
+    "main.js": "/ray-portfolio-v1/static/js/main.791b3c69.js",
     "static/media/gallery.png": "/ray-portfolio-v1/static/media/gallery.98a5a31c9aa7b5f20f63.png",
     "static/media/tng-clone.png": "/ray-portfolio-v1/static/media/tng-clone.9f54ae7bbeb12d1795fa.png",
     "static/media/coingecko-clone.png": "/ray-portfolio-v1/static/media/coingecko-clone.edb9d9deda518fac8ff0.png",
@@ -11,10 +11,10 @@
     "static/media/portrait_march_2020.jpg": "/ray-portfolio-v1/static/media/portrait_march_2020.2d8407f7ab9b6ec1327c.jpg",
     "index.html": "/ray-portfolio-v1/index.html",
     "main.e4b68654.css.map": "/ray-portfolio-v1/static/css/main.e4b68654.css.map",
-    "main.af5a5f87.js.map": "/ray-portfolio-v1/static/js/main.af5a5f87.js.map"
+    "main.791b3c69.js.map": "/ray-portfolio-v1/static/js/main.791b3c69.js.map"
   },
   "entrypoints": [
     "static/css/main.e4b68654.css",
-    "static/js/main.af5a5f87.js"
+    "static/js/main.791b3c69.js"
   ]
 }
