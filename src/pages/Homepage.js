@@ -1,5 +1,3 @@
-import Navbar from '../components/Navbar/Navbar'
-import HeroImage from '../components/HeroImage/HeroImage'
 import { AboutCard } from '../components/AboutCard'
 import { ExperienceCard } from '../components/ExperienceCard'
 import { SkillsSection } from '../components/SkillsSection'
