@@ -5,6 +5,9 @@ import { ExperienceCard } from '../components/ExperienceCard'
 import { SkillsSection } from '../components/SkillsSection'
 import { ProjectCard } from '../components/ProjectCard'
 import portraitPhoto from '../assets/business-3d-man-sitting-with-smartphone-1.png'
+import linkedinLogo from '../assets/linkedin.png'
+import githubLogo from '../assets/github.png'
+import gmailLogo from '../assets/gmail.png'
 import coingeckoClone from '../assets/coingecko-clone.png'
 import tngClone from '../assets/tng-clone.png'
 import gallery from '../assets/gallery.png'
@@ -58,9 +61,9 @@ const Homepage = () => {
               Resume
             </a>
           </div>
-          <div className='flex lg:hidden'>
-            <a>Hamburger</a>
-          </div>
+          {/* <div className='flex lg:hidden'>
+            <img src='https://img.icons8.com/material-outlined/24/000000/menu--v1.png' />
+          </div> */}
         </div>
       </nav>
       <section className='container grid sm:gap-4 grid-rows-2 sm:grid-rows-none sm:grid-cols-2 px-4 py-8 mx-auto'>
@@ -329,9 +332,42 @@ const Homepage = () => {
           />
         </div>
       </section>
-      <footer className='bg-stone-600'>
-        <div className='container flex justify-between px-4 py-4 mx-auto '>
-          <h1 className='text-zinc-50'>Contact Me</h1>
+      <footer className='bg-stone-200'>
+        <div className='container px-4 py-4 mx-auto text-center'>
+          <h1 className='text-stone-800 text-4xl font-light my-4'>
+            Contact Me
+          </h1>
+          <div className='flex mx-auto w-60 space-x-4 items-center justify-center pb-8'>
+            <a
+              href='https://github.com/Ganthology'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img
+                src={githubLogo}
+                alt='GitHub Logo'
+                className='w-full h-full max-h-16 max-w-sm object-contain'
+              />
+            </a>
+            <a
+              href='https://www.linkedin.com/in/ray-gan-bk/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img
+                src={linkedinLogo}
+                alt='LinkedIn Logo'
+                className='w-full h-full max-h-16 max-w-sm object-contain'
+              />
+            </a>
+            <a href='mailto:ray.ganbk@gmail.com'>
+              <img
+                src={gmailLogo}
+                alt='Gmail Logo'
+                className='w-full h-full max-h-16 max-w-sm object-contain'
+              />
+            </a>
+          </div>
         </div>
       </footer>
     </div>
